@@ -145,5 +145,12 @@
             newRaisedAmount = newRaisedAmount || 0;
             $donationEl.find('.progress-bar').css('width', (newRaisedAmount / targetAmt * 100) + '%');
         });
+        
+        $donationEl.find('input').on('keyup', function(event) {
+            // when enter is pressed
+            if (event.which === 13) {
+                $('#donate-button').trigger('click');
+            }
+        });
     });
 })(jQuery);
