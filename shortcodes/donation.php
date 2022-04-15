@@ -44,9 +44,9 @@ class Donation
     {
         $templateDir = get_template_directory_uri();
         
-        wp_register_style('gsquared2022-swal-style',  "$templateDir/node_modules/sweetalert2/dist/sweetalert2.min.css", array(), wp_get_theme()->get('Version'));
         
-        wp_register_script('gsquared2022-swal-script', "$templateDir/node_modules/sweetalert2/dist/sweetalert2.min.js", array(), wp_get_theme()->get('Version'));
+        wp_register_style('gsquared2022-swal-style',  "//cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.min.css", array(), wp_get_theme()->get('Version'));
+        wp_register_script('gsquared2022-swal-script', "//cdn.jsdelivr.net/npm/sweetalert2@11.4.8/dist/sweetalert2.min.js", array(), wp_get_theme()->get('Version'));
         wp_register_script('gsquared2022-donation', "$templateDir/assets/dist/donation.min.js", array('jquery', 'gsquared2022-swal-script'), wp_get_theme()->get('Version'));
     }
     
