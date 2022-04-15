@@ -2,9 +2,9 @@
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <div class="form-container py-5 px-5">
-                <form class="mt-5 px-5" method="post">
+                <form class="px-5" method="post">
                     <?php if (isset($args['title'])): ?>
-                        <h3><?php echo esc_html($args['title']); ?></h3>
+                        <h3 class="donation-form-title mb-3"><?php echo esc_html($args['title']); ?></h3>
                     <?php endif; ?>
                     
                     <p class="raised-amount text-center">&#36;<span><?php echo esc_html(number_format($args['raised_amount'])); ?></span></p>

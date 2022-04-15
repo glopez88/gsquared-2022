@@ -15,18 +15,18 @@ a {
     text-decoration: none;
 }
 
+h1,
+h2, 
+h3,
+h4, 
+h5,
+h6 {
+    font-family: 'Lora', serif;
+}
+
 #site-header {
     text-align: center;
     padding: 50px 0;
-}
-
-#site-header h1,
-#site-header h2, 
-#site-header h3,
-#site-header h4, 
-#site-header h5,
-#site-header h6 {
-    font-family: 'Lora', serif;
 }
 
 #site-header h1 {

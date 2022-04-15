@@ -79,6 +79,7 @@ class Donation
         );
         
         $data = [
+            'title' => $atts['title'],
             'target_amount' => abs($atts['target_amount']), 
             'max_donation' => abs($atts['max_donation']), 
             'payment_methods' => explode(',', $atts['payment_methods']), 

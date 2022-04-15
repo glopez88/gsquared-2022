@@ -8,9 +8,10 @@
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.donation-sc .form-container h3 {
+.donation-sc .form-container h3.donation-form-title {
     font-weight: 600;
     font-size: 22px;
+    text-align: center;
 }
 
 .donation-sc .raised-amount {
