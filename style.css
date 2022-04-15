@@ -1,0 +1,11 @@
+/*
+Theme Name: G Squared 2022
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Godwinh Lopez
+Description: A theme for my technical exercise 
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Montserrat:wght@300;400;600;700&display=swap');
+
+@import "assets/dist/style.min.css";

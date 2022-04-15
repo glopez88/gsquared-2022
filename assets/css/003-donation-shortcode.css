@@ -1,0 +1,65 @@
+.donation-sc {
+    margin-bottom: 150px;
+}
+
+.donation-sc .form-container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.donation-sc .form-container h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.donation-sc .raised-amount {
+    color: #5D8C92;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0;
+}
+
+.donation-sc .target-amount {
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.donation-sc .progress {
+    border-radius: 0;
+}
+
+.donation-sc .progress-bar {
+    background: #5D8C92;
+}
+
+.donation-sc .donation-sc-content {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.donation-sc .donation-text-label {
+    font-size: 14px;
+}
+
+.donation-sc h4 {
+    font-size: 22px;
+    color: #333;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+
+.donation-sc #donate-button {
+    background: #5D8C92 !important;
+    border: none;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.donation-sc .form-check-label {
+    font-size: 18px;
+    font-weight: 600;
+}
