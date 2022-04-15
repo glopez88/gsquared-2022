@@ -28,7 +28,7 @@
                         <p class="w-75 mt-3 ms-auto me-auto donation-sc-content"><?php echo $args['content']; ?></p>
                     <?php endif; ?>
                 
-                    <div class="row">
+                    <div class="row mt-5">
                         <h4 class="form-title">Select payment method</h4>
                     </div>
                     <div class="row mb-4">
